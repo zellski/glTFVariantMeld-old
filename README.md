@@ -25,7 +25,12 @@ We've yet to actually publish a release. Until we do, please [build the bleeding
 
 ## Usage
 
-Using the web command-line interface might look like:
+The tool depends on glTF source files that are **identical** except for which materials the various
+meshes reference. The proposed work flow is to export the same asset from the same digital content
+creation app repeatedly, taking care to make no changes to geometry or structure between each
+exported file.
+
+Then, using the (quite primitive, as yet) command-line interface might look like:
 
 ```shell
 > dist/app.js black:GizmoBlack.glb blue:GizmoBlue.glb clear:GizmoClear.glb GizmoVariational.glb
