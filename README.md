@@ -1,6 +1,7 @@
 # glTFVariantMeld
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![CircleCI](https://circleci.com/gh/facebookincubator/glTFVariantMeld/tree/master.svg?style=svg&circle-token=444333da241c0fc99a7ac8f786129f3bce774b43)](https://circleci.com/gh/facebookincubator/glTFVariantMeld/tree/master)
 
 ## Description
 
@@ -13,8 +14,9 @@ without latency or stuttering.
 
 We're making this internal tool publicly available with the hope of helping the glTF
 ecosystem come together around a common, open format. In this prerelease version, the tool
-produces files with the vendor extension [TODO: link](`FB_material_variants`). We are
-hopeful that the glTF community will find speedy consensus around a ratified extension.
+produces files with the vendor extension
+[`FB_material_variants`](https://github.com/KhronosGroup/glTF/pull/1681). We are hopeful
+that the glTF community will find speedy consensus around a ratified extension.
 
 ## Installation
 
